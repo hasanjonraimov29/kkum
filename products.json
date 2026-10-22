@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-10-22T06:30:28.086Z",
+  "updatedAt": "2026-10-22T14:17:56.625Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 2970,
+      "images": [
+        "images/products/2970-0.jpg",
+        "images/products/2970-1.jpg",
+        "images/products/2970-2.jpg"
+      ],
+      "category": "Джинсы",
+      "categoryName": "Джинсы",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 269.000 🖤Размеры: S-3XL 🖤Материал: деним Та",
+      "price": "269.000",
+      "oldPrice": "",
+      "sizes": "S-3XL 🖤Материал: деним Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/2970"
+    },
     {
       "id": 2968,
       "images": [
@@ -3187,81 +3203,6 @@
       "sizes": "S-3XL Материал: полиэстер Ташкент📍",
       "freeShipping": false,
       "link": "https://t.me/kkum_youu/2270"
-    },
-    {
-      "id": 2268,
-      "images": [
-        "images/products/2268-0.jpg",
-        "images/products/2268-1.jpg"
-      ],
-      "category": "свитшот",
-      "categoryName": "свитшот",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Свитшот kkum ⭐️  Цена: 199.000 Размеры: S-3XL Материал: плащовка",
-      "price": "199.000",
-      "oldPrice": "",
-      "sizes": "S-3XL Материал: плащовка Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2268"
-    },
-    {
-      "id": 2267,
-      "images": [
-        "images/products/2267-0.jpg"
-      ],
-      "category": "Другое",
-      "categoryName": "Другое",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">В инсте такие дела.. переходите, не пропустите 😍 ❤41😭31💘19❤‍🔥8\ud83d",
-      "price": "",
-      "oldPrice": "",
-      "sizes": "",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2267"
-    },
-    {
-      "id": 2265,
-      "images": [
-        "images/products/2265-0.jpg",
-        "images/products/2265-1.jpg"
-      ],
-      "category": "футболка",
-      "categoryName": "футболка",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Футболка kkum ⭐️  Цена: 129.000 Размеры: М-3XL Материал: хлопок Т",
-      "price": "129.000",
-      "oldPrice": "",
-      "sizes": "М-3XL Материал: хлопок Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2265"
-    },
-    {
-      "id": 2263,
-      "images": [
-        "images/products/2263-0.jpg",
-        "images/products/2263-1.jpg"
-      ],
-      "category": "рубашка",
-      "categoryName": "рубашка",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Рубашка kkum ⭐️  Цена: 179.000 Размеры: S-3XL Материал: хлопок +",
-      "price": "179.000",
-      "oldPrice": "",
-      "sizes": "S-3XL Материал: хлопок + полиэстер Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2263"
-    },
-    {
-      "id": 2260,
-      "images": [
-        "images/products/2260-0.jpg",
-        "images/products/2260-1.jpg",
-        "images/products/2260-2.jpg"
-      ],
-      "category": "джинсы",
-      "categoryName": "джинсы",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Джинсы kkum ⭐️  Цена: 219.000 Размеры: S-XL Материал: джинсовка Т",
-      "price": "219.000",
-      "oldPrice": "",
-      "sizes": "S-XL Материал: джинсовка Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2260"
     }
   ]
 }
