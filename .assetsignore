@@ -1,0 +1,9 @@
+node_modules
+.git
+.github
+.claude
+scripts
+CLAUDE.md
+.gitignore
+.assetsignore
+package.json
