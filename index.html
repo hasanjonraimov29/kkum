@@ -50,6 +50,7 @@
     <header class="topbar">
         <a class="brand" href="#top" aria-label="KKUM"><span class="direction-icons" aria-label="KKUM"><img src="chap.png" alt=""><img src="K.png" alt="K"><img src="K.png" alt="K"><img src="U.png" alt="U"><img src="M.png" alt="M"><img src="ung.png" alt=""></span></a>
         <nav class="main-nav" aria-label="Основная навигация"><a href="#collection" data-tooltip="Открыть коллекцию">Коллекция</a><a href="#delivery" data-tooltip="Условия заказа">Доставка</a><a href="#contact" data-tooltip="Задать вопрос">Контакты</a></nav>
+        <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="true" aria-label="Фоновая музыка"><span class="sound-icon" aria-hidden="true">♪</span><span class="sound-label">Звук вкл</span></button>
         <a class="header-link" href="https://t.me/kkum_youu" target="_blank" rel="noopener noreferrer"><span>Telegram</span><span class="arrow">↗</span></a>
     </header>
     <main id="top">
@@ -63,6 +64,7 @@
     </main>
     <div class="modal" id="productModal" aria-hidden="true"><div class="modal-backdrop" data-close-modal></div><div class="modal-dialog" role="dialog" aria-modal="true"><button class="modal-close" data-close-modal aria-label="Закрыть">×</button><div id="modalBody"></div></div></div>
     <footer><span>© <span id="year"></span> KKUM YOUU</span><a href="https://t.me/kkum_youu" target="_blank" rel="noopener noreferrer">Открыть канал ↗</a></footer>
+    <audio id="bgMusic" src="Bye.m4a" loop preload="auto"></audio>
     <script src="script.js"></script>
 </body>
 </html>

@@ -293,3 +293,39 @@ function initIntro() {
     document.addEventListener('keydown', event => { if (event.key === 'Escape') { clearTimeout(timer); close(); } });
 }
 initIntro();
+
+// Background music: remembers on/off choice; browsers block autoplay with sound,
+// so playback starts on the first tap or key press if the first attempt is refused.
+function initMusic() {
+    const audio = document.getElementById('bgMusic');
+    const toggle = document.getElementById('soundToggle');
+    if (!audio || !toggle) return;
+    audio.volume = 0.35;
+    const label = toggle.querySelector('.sound-label');
+    let saved = null;
+    try { saved = localStorage.getItem('kkumSound'); } catch (error) { saved = null; }
+    let soundOn = saved !== 'off';
+
+    const playIfOn = () => {
+        if (!soundOn) return;
+        audio.play().catch(() => {
+            document.addEventListener('pointerdown', playIfOn, { once: true });
+            document.addEventListener('keydown', playIfOn, { once: true });
+        });
+    };
+    const render = () => {
+        toggle.setAttribute('aria-pressed', String(soundOn));
+        label.textContent = soundOn ? 'Звук вкл' : 'Звук выкл';
+    };
+
+    toggle.addEventListener('click', () => {
+        soundOn = !soundOn;
+        try { localStorage.setItem('kkumSound', soundOn ? 'on' : 'off'); } catch (error) { /* storage unavailable */ }
+        render();
+        if (soundOn) playIfOn(); else audio.pause();
+    });
+
+    render();
+    playIfOn();
+}
+initMusic();

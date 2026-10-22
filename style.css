@@ -21,3 +21,10 @@ body.intro-open{overflow:hidden}
 
 /* Phone: hero logo sits above the text instead of behind it */
 @media(max-width:800px){.hero{flex-direction:column;align-items:flex-start}.hero-copy{order:2}.hero-mark{position:relative;top:auto;right:auto;bottom:auto;transform:none;width:132px;margin:0 0 30px;opacity:1}.hero-mark:before{inset:4%}.hero-bottom{display:none}}
+
+/* Background music toggle */
+.sound-toggle{display:flex;align-items:center;gap:7px;padding:8px 14px;border:1px solid var(--ink);border-radius:999px;background:transparent;color:var(--ink);font:600 11px var(--display);letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:background .25s,color .25s}
+.sound-toggle:hover{background:var(--ink);color:var(--white)}
+.sound-icon{font-size:14px;line-height:1;transition:opacity .25s}
+.sound-toggle[aria-pressed="false"] .sound-icon{opacity:.3}
+@media(max-width:800px){.sound-toggle{padding:6px 10px;font-size:9px;gap:5px}.sound-icon{font-size:12px}}
