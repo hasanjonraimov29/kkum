@@ -277,3 +277,19 @@ const revealObserver = new IntersectionObserver(entries => entries.forEach(entry
 }), { threshold: 0.12 });
 document.querySelectorAll('.reveal-on-scroll').forEach(element => revealObserver.observe(element));
 loadNextBatch();
+
+// Intro splash: plays once per page load, hides after a few seconds or on tap / Esc.
+function initIntro() {
+    const intro = document.getElementById('intro');
+    if (!intro) return;
+    document.body.classList.add('intro-open');
+    const close = () => {
+        if (intro.classList.contains('done')) return;
+        intro.classList.add('done');
+        document.body.classList.remove('intro-open');
+    };
+    const timer = setTimeout(close, 2800);
+    intro.addEventListener('click', () => { clearTimeout(timer); close(); });
+    document.addEventListener('keydown', event => { if (event.key === 'Escape') { clearTimeout(timer); close(); } });
+}
+initIntro();
