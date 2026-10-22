@@ -19,8 +19,8 @@ body.intro-open{overflow:hidden}
 @keyframes introFade{from{opacity:0}to{opacity:1}}
 @media(prefers-reduced-motion:reduce){.intro-logo,.intro-sticker,.intro-skip{animation-duration:.01s;animation-delay:0s}.intro{transition-duration:.01s}}
 
-/* Phone: hero logo sits above the text instead of behind it */
-@media(max-width:800px){.hero{flex-direction:column;align-items:flex-start}.hero-copy{order:2}.hero-mark{position:relative;top:auto;right:auto;bottom:auto;transform:none;width:132px;margin:0 0 30px;opacity:1}.hero-mark:before{inset:4%}.hero-bottom{display:none}}
+/* Phone: hero logo sits beside the heading (logo left, smaller text right) */
+@media(max-width:800px){.hero{display:grid;grid-template-columns:104px 1fr;column-gap:16px;align-items:center;align-content:center}.hero-copy{display:contents}.hero-mark{grid-column:1;grid-row:1 / span 2;position:relative;top:auto;right:auto;bottom:auto;transform:none;width:104px;margin:0;opacity:1}.hero-mark:before{inset:4%}.hero .eyebrow{grid-column:2;grid-row:1;align-self:end;margin-bottom:10px}.hero h1{grid-column:2;grid-row:2;align-self:start;font-size:34px}.hero-text,.hero-actions{grid-column:1 / -1}.hero-bottom{display:none}}
 
 /* Background music toggle */
 .sound-toggle{display:flex;align-items:center;gap:7px;padding:8px 14px;border:1px solid var(--ink);border-radius:999px;background:transparent;color:var(--ink);font:600 11px var(--display);letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:background .25s,color .25s}
