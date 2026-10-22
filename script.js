@@ -18,6 +18,8 @@ let loadingPromise = null;
 
 const $ = selector => document.querySelector(selector);
 const escapeHtml = value => String(value || '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' })[char]);
+// Removes leftover Telegram HTML fragments and emoji from product text.
+const cleanText = value => String(value || '').replace(/^.*?dir="auto">/, '').replace(/[\p{Extended_Pictographic}\p{Emoji_Presentation}‍️⃣]/gu, '').replace(/\s+/g, ' ').trim();
 const updateLoadingStatus = (message, count = products.length) => {
     const status = $('#loadingStatus');
     const counter = $('#loadingCount');
@@ -222,7 +224,7 @@ function renderProducts(append, targetCount) {
 }
 
 function productCard(product) {
-    return `<article class="product-card" data-id="${product.id}"><div class="product-image"><img src="${escapeHtml(product.images[0])}" alt="${escapeHtml(product.categoryName)}" loading="lazy"><span>${escapeHtml(product.categoryName)}</span>${product.images.length > 1 ? `<small>✦ ${product.images.length}</small>` : ''}</div><div class="product-body"><p class="product-category">${escapeHtml(product.categoryName)}</p><h3>${escapeHtml(product.title || product.categoryName)}</h3><div class="price">${product.price ? `<strong>${escapeHtml(product.price)} сум</strong>` : '<strong>Уточнить цену</strong>'}${product.oldPrice ? `<del>${escapeHtml(product.oldPrice)}</del>` : ''}</div><p class="meta">${product.freeShipping ? '✦ Доставка от 500 000 сум бесплатно' : ''}${product.sizes ? ` <span>· ${escapeHtml(product.sizes)}</span>` : ''}</p><button class="order">Заказать <span>↗</span></button></div></article>`;
+    return `<article class="product-card" data-id="${product.id}"><div class="product-image"><img src="${escapeHtml(product.images[0])}" alt="${escapeHtml(product.categoryName)}" loading="lazy"><span>${escapeHtml(product.categoryName)}</span>${product.images.length > 1 ? `<small>✦ ${product.images.length}</small>` : ''}</div><div class="product-body"><p class="product-category">${escapeHtml(product.categoryName)}</p><h3>${escapeHtml(cleanText(product.title) || product.categoryName)}</h3><div class="price">${product.price ? `<strong>${escapeHtml(product.price)} сум</strong>` : '<strong>Уточнить цену</strong>'}${product.oldPrice ? `<del>${escapeHtml(product.oldPrice)}</del>` : ''}</div><p class="meta">${product.freeShipping ? '✦ Доставка от 500 000 сум бесплатно' : ''}${product.sizes ? ` <span>· ${escapeHtml(cleanText(product.sizes))}</span>` : ''}</p><button class="order">Заказать <span>↗</span></button></div></article>`;
 }
 
 function openModal(product) {
@@ -230,7 +232,7 @@ function openModal(product) {
     const images = product.images.length ? product.images : [''];
     const secondImage = images[1] ? `<div class="modal-peek" aria-hidden="true"><img src="${escapeHtml(images[1])}" alt=""></div>` : '';
     const arrows = images.length > 1 ? '<button class="modal-arrow modal-arrow-left" data-step="-1" aria-label="Предыдущее фото">‹</button><button class="modal-arrow modal-arrow-right" data-step="1" aria-label="Следующее фото">›</button>' : '';
-    $('#modalBody').innerHTML = `<div class="modal-gallery"><div class="modal-image"><img id="modalMainImage" src="${escapeHtml(images[0])}" alt="${escapeHtml(product.categoryName)}" loading="eager"></div>${secondImage}${arrows}</div><div class="modal-info"><p class="eyebrow">${escapeHtml(product.categoryName)}</p><h2>${escapeHtml(product.title || product.categoryName)}</h2><div class="price"><strong>${escapeHtml(product.price || 'Цена по запросу')} ${product.price ? 'сум' : ''}</strong>${product.oldPrice ? `<del>${escapeHtml(product.oldPrice)}</del>` : ''}</div><p>${product.sizes ? `Размеры: ${escapeHtml(product.sizes)}<br>` : ''}Доставка по Узбекистану<br>${product.freeShipping ? 'Бесплатная доставка от 500 000 сум' : ''}</p><a class="button button-dark" href="${ADMIN_URL}" target="_blank" rel="noopener noreferrer">Написать @ur_kkum ↗</a><a class="modal-channel" href="${product.link}" target="_blank" rel="noopener noreferrer">Открыть пост в Telegram ↗</a></div>`;
+    $('#modalBody').innerHTML = `<div class="modal-gallery"><div class="modal-image"><img id="modalMainImage" src="${escapeHtml(images[0])}" alt="${escapeHtml(product.categoryName)}" loading="eager"></div>${secondImage}${arrows}</div><div class="modal-info"><p class="eyebrow">${escapeHtml(product.categoryName)}</p><h2>${escapeHtml(cleanText(product.title) || product.categoryName)}</h2><div class="price"><strong>${escapeHtml(product.price || 'Цена по запросу')} ${product.price ? 'сум' : ''}</strong>${product.oldPrice ? `<del>${escapeHtml(product.oldPrice)}</del>` : ''}</div><p>${product.sizes ? `Размеры: ${escapeHtml(cleanText(product.sizes))}<br>` : ''}Доставка по Узбекистану<br>${product.freeShipping ? 'Бесплатная доставка от 500 000 сум' : ''}</p><a class="button button-dark" href="${ADMIN_URL}" target="_blank" rel="noopener noreferrer">Написать @ur_kkum ↗</a><a class="modal-channel" href="${product.link}" target="_blank" rel="noopener noreferrer">Открыть пост в Telegram ↗</a></div>`;
     let currentImage = 0;
     const updateImage = step => {
         currentImage = (currentImage + step + images.length) % images.length;
