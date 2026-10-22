@@ -223,6 +223,39 @@ function renderProducts(append, targetCount) {
     $('#noProducts').hidden = filtered.length > 0;
 }
 
+// Calls onSwipe(-1 | 1, touchedElement) on a clear horizontal swipe; vertical scrolling is left alone.
+let swipedAt = 0;
+function attachSwipe(element, onSwipe) {
+    let startX = 0, startY = 0, startTarget = null;
+    element.addEventListener('touchstart', event => {
+        if (event.touches.length !== 1) return;
+        startX = event.touches[0].clientX;
+        startY = event.touches[0].clientY;
+        startTarget = event.target;
+    }, { passive: true });
+    element.addEventListener('touchend', event => {
+        if (!startTarget) return;
+        const dx = event.changedTouches[0].clientX - startX;
+        const dy = event.changedTouches[0].clientY - startY;
+        const target = startTarget;
+        startTarget = null;
+        if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.2) return;
+        swipedAt = Date.now();
+        onSwipe(dx < 0 ? 1 : -1, target);
+    });
+}
+
+const cardImageIndex = new Map();
+attachSwipe($('#productsGrid'), (step, target) => {
+    const imageBox = target.closest('.product-image');
+    const card = target.closest('.product-card');
+    const product = card && products.find(item => item.id === Number(card.dataset.id));
+    if (!imageBox || !product || product.images.length < 2) return;
+    const next = ((cardImageIndex.get(product.id) || 0) + step + product.images.length) % product.images.length;
+    cardImageIndex.set(product.id, next);
+    imageBox.querySelector('img').src = product.images[next];
+});
+
 function productCard(product) {
     return `<article class="product-card" data-id="${product.id}"><div class="product-image"><img src="${escapeHtml(product.images[0])}" alt="${escapeHtml(product.categoryName)}" loading="lazy"><span>${escapeHtml(product.categoryName)}</span>${product.images.length > 1 ? `<small>✦ ${product.images.length}</small>` : ''}</div><div class="product-body"><p class="product-category">${escapeHtml(product.categoryName)}</p><h3>${escapeHtml(cleanText(product.title) || product.categoryName)}</h3><div class="price">${product.price ? `<strong>${escapeHtml(product.price)} сум</strong>` : '<strong>Уточнить цену</strong>'}${product.oldPrice ? `<del>${escapeHtml(product.oldPrice)}</del>` : ''}</div><p class="meta">${product.freeShipping ? '✦ Доставка от 500 000 сум бесплатно' : ''}${product.sizes ? ` <span>· ${escapeHtml(cleanText(product.sizes))}</span>` : ''}</p><button class="order">Заказать <span>↗</span></button></div></article>`;
 }
@@ -241,6 +274,8 @@ function openModal(product) {
         setTimeout(() => { mainImage.src = images[currentImage]; mainImage.classList.remove('switching'); }, 160);
     };
     $('#modalBody').querySelectorAll('[data-step]').forEach(button => button.addEventListener('click', () => updateImage(Number(button.dataset.step))));
+    const modalImage = $('#modalBody').querySelector('.modal-image');
+    if (modalImage && images.length > 1) attachSwipe(modalImage, step => updateImage(step));
     $('#productModal').classList.add('open');
     $('#productModal').setAttribute('aria-hidden', 'false');
 }
@@ -249,7 +284,7 @@ function closeModal() { $('#productModal').classList.remove('open'); $('#product
 
 $('#productsGrid').addEventListener('click', event => {
     const card = event.target.closest('.product-card');
-    if (!card) return;
+    if (!card || Date.now() - swipedAt < 400) return;
     openModal(products.find(product => product.id === Number(card.dataset.id)));
 });
 
