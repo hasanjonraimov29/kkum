@@ -1,0 +1,34 @@
+name: Sync Telegram products
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pull products from the Telegram channel
+        run: npm run sync
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "kkum-sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add products.json images/products
+          if git diff --cached --quiet; then
+            echo "No product changes"
+          else
+            git commit -m "Sync products from Telegram"
+            git push
+          fi
