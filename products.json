@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-10-27T03:20:18.053Z",
+  "updatedAt": "2026-10-27T09:14:41.810Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 2979,
+      "images": [
+        "images/products/2979-0.jpg",
+        "images/products/2979-1.jpg",
+        "images/products/2979-2.jpg"
+      ],
+      "category": "Лук",
+      "categoryName": "Лук",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 667.000 ❌ -> 619.000 🖤Размеры: S-3XL 🖤Матер",
+      "price": "667.000",
+      "oldPrice": "667.000",
+      "sizes": "S-3XL 🖤Материал: хлопок + джинсовка Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/2979"
+    },
     {
       "id": 2973,
       "images": [
@@ -3171,55 +3187,6 @@
       "sizes": "S-3XL Материал: полиэстер Ташкент📍",
       "freeShipping": false,
       "link": "https://t.me/kkum_youu/2280"
-    },
-    {
-      "id": 2276,
-      "images": [
-        "images/products/2276-0.jpg",
-        "images/products/2276-1.jpg",
-        "images/products/2276-2.jpg",
-        "images/products/2276-3.jpg"
-      ],
-      "category": "сумка",
-      "categoryName": "сумка",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Сумка kkum ⭐️  Цена: 129.000 Размеры: 40*36*15 Материал: холст Та",
-      "price": "129.000",
-      "oldPrice": "",
-      "sizes": "40*36*15 Материал: холст Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2276"
-    },
-    {
-      "id": 2274,
-      "images": [
-        "images/products/2274-0.jpg",
-        "images/products/2274-1.jpg"
-      ],
-      "category": "скимс",
-      "categoryName": "скимс",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Скимсы kkum ⭐️  Цена: 139.000 Размеры: S-XL Материал: хлопок Ташк",
-      "price": "139.000",
-      "oldPrice": "",
-      "sizes": "S-XL Материал: хлопок Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2274"
-    },
-    {
-      "id": 2270,
-      "images": [
-        "images/products/2270-0.jpg",
-        "images/products/2270-1.jpg",
-        "images/products/2270-2.jpg",
-        "images/products/2270-3.jpg"
-      ],
-      "category": "брюки",
-      "categoryName": "брюки",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Брюки (теплые) kkum ⭐️  Цена: 249.000 Размеры: S-3XL Материал: по",
-      "price": "249.000",
-      "oldPrice": "",
-      "sizes": "S-3XL Материал: полиэстер Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2270"
     }
   ]
 }
