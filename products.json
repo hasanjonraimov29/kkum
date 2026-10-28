@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-10-28T03:35:52.586Z",
+  "updatedAt": "2026-10-28T10:16:56.258Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 2982,
+      "images": [
+        "images/products/2982-0.jpg",
+        "images/products/2982-1.jpg",
+        "images/products/2982-2.jpg"
+      ],
+      "category": "Ветровка",
+      "categoryName": "Ветровка",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 269.000 🖤Размеры: S-4XL 🖤Материал: джинсовк",
+      "price": "269.000",
+      "oldPrice": "",
+      "sizes": "S-4XL 🖤Материал: джинсовка Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/2982"
+    },
     {
       "id": 2979,
       "images": [
