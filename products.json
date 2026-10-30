@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-10-30T06:09:53.567Z",
+  "updatedAt": "2026-10-30T13:17:13.544Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 2988,
+      "images": [
+        "images/products/2988-0.jpg",
+        "images/products/2988-1.jpg",
+        "images/products/2988-2.jpg"
+      ],
+      "category": "Толстовка",
+      "categoryName": "Толстовка",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 239/259.000 (без/начес) 🖤Размеры: М-3XL 🖤Ма",
+      "price": "239",
+      "oldPrice": "",
+      "sizes": "М-3XL 🖤Материал: хлопок + полиэстер Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/2988"
+    },
     {
       "id": 2985,
       "images": [
