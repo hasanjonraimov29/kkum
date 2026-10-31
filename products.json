@@ -1,7 +1,24 @@
 {
-  "updatedAt": "2026-10-31T01:57:45.034Z",
+  "updatedAt": "2026-10-31T08:02:31.261Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 2991,
+      "images": [
+        "images/products/2991-0.jpg",
+        "images/products/2991-1.jpg",
+        "images/products/2991-2.jpg",
+        "images/products/2991-3.jpg"
+      ],
+      "category": "Значки",
+      "categoryName": "Значки",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 45.000/набор 🖤Размеры: 5.8 см Ташкент ✔️ Дос",
+      "price": "45.000",
+      "oldPrice": "",
+      "sizes": "5.8 см Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/2991"
+    },
     {
       "id": 2988,
       "images": [
