@@ -1,7 +1,26 @@
 {
-  "updatedAt": "2026-11-01T01:20:44.245Z",
+  "updatedAt": "2026-11-01T07:48:17.301Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 2996,
+      "images": [
+        "images/products/2996-0.jpg",
+        "images/products/2996-1.jpg",
+        "images/products/2996-2.jpg",
+        "images/products/2996-3.jpg",
+        "images/products/2996-4.jpg",
+        "images/products/2996-5.jpg"
+      ],
+      "category": "Свитер",
+      "categoryName": "Свитеры",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 179.000 🖤Размеры: S-XL 🖤Материал: шерсть +",
+      "price": "179.000",
+      "oldPrice": "",
+      "sizes": "S-XL 🖤Материал: шерсть + полиэстер Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/2996"
+    },
     {
       "id": 2991,
       "images": [
@@ -3171,55 +3190,6 @@
       "sizes": "М-3XL Материал: хлопок Ташкент📍",
       "freeShipping": false,
       "link": "https://t.me/kkum_youu/2291"
-    },
-    {
-      "id": 2288,
-      "images": [
-        "images/products/2288-0.jpg",
-        "images/products/2288-1.jpg",
-        "images/products/2288-2.jpg"
-      ],
-      "category": "джинсы",
-      "categoryName": "джинсы",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Джинсы kkum ⭐️  Цена: 239.000 Размеры: S-3XL Материал: джинсовка",
-      "price": "239.000",
-      "oldPrice": "",
-      "sizes": "S-3XL Материал: джинсовка Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2288"
-    },
-    {
-      "id": 2285,
-      "images": [
-        "images/products/2285-0.jpg",
-        "images/products/2285-1.jpg"
-      ],
-      "category": "джинсы",
-      "categoryName": "джинсы",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Джинсы kkum ⭐️  Цена: 269.000 Размеры: S-3XL Материал: джинсовка",
-      "price": "269.000",
-      "oldPrice": "",
-      "sizes": "S-3XL Материал: джинсовка Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2285"
-    },
-    {
-      "id": 2280,
-      "images": [
-        "images/products/2280-0.jpg",
-        "images/products/2280-1.jpg",
-        "images/products/2280-2.jpg",
-        "images/products/2280-3.jpg",
-        "images/products/2280-4.jpg"
-      ],
-      "category": "рубашка",
-      "categoryName": "рубашка",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Рубашка kkum ⭐️  Цена: 149.000 Размеры: S-3XL Материал: полиэстер",
-      "price": "149.000",
-      "oldPrice": "",
-      "sizes": "S-3XL Материал: полиэстер Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2280"
     }
   ]
 }
