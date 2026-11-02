@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-11-02T02:06:52.719Z",
+  "updatedAt": "2026-11-02T09:46:03.808Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3002,
+      "images": [
+        "images/products/3002-0.jpg",
+        "images/products/3002-1.jpg",
+        "images/products/3002-2.jpg"
+      ],
+      "category": "Чехол",
+      "categoryName": "Чехол",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 59.000 🖤Модель: iPhone: 11-18 pro max Ташкен",
+      "price": "59.000",
+      "oldPrice": "59.000",
+      "sizes": "",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3002"
+    },
     {
       "id": 2996,
       "images": [
