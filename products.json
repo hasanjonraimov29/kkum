@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-11-03T01:59:41.770Z",
+  "updatedAt": "2026-11-03T09:15:27.630Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3005,
+      "images": [
+        "images/products/3005-0.jpg",
+        "images/products/3005-1.jpg",
+        "images/products/3005-2.jpg"
+      ],
+      "category": "Рюкзак",
+      "categoryName": "Рюкзак",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 159.000 🖤Материал: нейлон Ташкент ✔️ Доставк",
+      "price": "159.000",
+      "oldPrice": "",
+      "sizes": "",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3005"
+    },
     {
       "id": 3002,
       "images": [
