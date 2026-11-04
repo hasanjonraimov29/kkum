@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-11-04T02:32:17.844Z",
+  "updatedAt": "2026-11-04T18:10:09.421Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3008,
+      "images": [
+        "images/products/3008-0.jpg",
+        "images/products/3008-1.jpg"
+      ],
+      "category": "Зипка",
+      "categoryName": "Зипки",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 209.000 🖤Размеры: М-3XL 🖤Материал: хлопок +",
+      "price": "209.000",
+      "oldPrice": "",
+      "sizes": "М-3XL 🖤Материал: хлопок + полиэстер Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3008"
+    },
     {
       "id": 3005,
       "images": [
@@ -3160,21 +3175,6 @@
       "link": "https://t.me/kkum_youu/2303"
     },
     {
-      "id": 2301,
-      "images": [
-        "images/products/2301-0.jpg",
-        "images/products/2301-1.jpg"
-      ],
-      "category": "браслет",
-      "categoryName": "браслет",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Браслет kkum ⭐️  Цена: 29.000 Ташкент📍 Доставка: по всему Узбеки",
-      "price": "29.000",
-      "oldPrice": "",
-      "sizes": "",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2301"
-    },
-    {
       "id": 2299,
       "images": [
         "images/products/2299-0.jpg",
@@ -3222,6 +3222,22 @@
       "sizes": "М-3XL Материал: хлопок Ташкент📍",
       "freeShipping": false,
       "link": "https://t.me/kkum_youu/2291"
+    },
+    {
+      "id": 2288,
+      "images": [
+        "images/products/2288-0.jpg",
+        "images/products/2288-1.jpg",
+        "images/products/2288-2.jpg"
+      ],
+      "category": "джинсы",
+      "categoryName": "джинсы",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Джинсы kkum ⭐️  Цена: 239.000 Размеры: S-3XL Материал: джинсовка",
+      "price": "239.000",
+      "oldPrice": "",
+      "sizes": "S-3XL Материал: джинсовка Ташкент📍",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/2288"
     }
   ]
 }
