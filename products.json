@@ -1,7 +1,24 @@
 {
-  "updatedAt": "2026-11-05T04:43:53.087Z",
+  "updatedAt": "2026-11-05T12:54:15.790Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3011,
+      "images": [
+        "images/products/3011-0.jpg",
+        "images/products/3011-1.jpg",
+        "images/products/3011-2.jpg",
+        "images/products/3011-3.jpg"
+      ],
+      "category": "Джинсы",
+      "categoryName": "Джинсы",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 259.000 🖤Размеры: S-3XL 🖤Материал: джинсовк",
+      "price": "259.000",
+      "oldPrice": "",
+      "sizes": "S-3XL 🖤Материал: джинсовка Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3011"
+    },
     {
       "id": 3008,
       "images": [
@@ -3173,71 +3190,6 @@
       "sizes": "S-3XL Материал: хлопок + полиэстер Ташкент📍",
       "freeShipping": false,
       "link": "https://t.me/kkum_youu/2303"
-    },
-    {
-      "id": 2299,
-      "images": [
-        "images/products/2299-0.jpg",
-        "images/products/2299-1.jpg"
-      ],
-      "category": "поло",
-      "categoryName": "поло",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Поло kkum ⭐️  Цена: 139.000 Размеры: S-2XL Материал: хлопок + пол",
-      "price": "139.000",
-      "oldPrice": "",
-      "sizes": "S-2XL Материал: хлопок + полиэстер Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2299"
-    },
-    {
-      "id": 2293,
-      "images": [
-        "images/products/2293-0.jpg",
-        "images/products/2293-1.jpg",
-        "images/products/2293-2.jpg",
-        "images/products/2293-3.jpg",
-        "images/products/2293-4.jpg",
-        "images/products/2293-5.jpg"
-      ],
-      "category": "кепка",
-      "categoryName": "кепка",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Кепка kkum ⭐️  Цена: 89.000 Размеры: стандартные Материал: хлопок",
-      "price": "89.000",
-      "oldPrice": "",
-      "sizes": "стандартные Материал: хлопок Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2293"
-    },
-    {
-      "id": 2291,
-      "images": [
-        "images/products/2291-0.jpg",
-        "images/products/2291-1.jpg"
-      ],
-      "category": "футболка",
-      "categoryName": "футболка",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Футболка kkum ⭐️  Цена: 139.000 Размеры: М-3XL Материал: хлопок Т",
-      "price": "139.000",
-      "oldPrice": "",
-      "sizes": "М-3XL Материал: хлопок Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2291"
-    },
-    {
-      "id": 2288,
-      "images": [
-        "images/products/2288-0.jpg",
-        "images/products/2288-1.jpg",
-        "images/products/2288-2.jpg"
-      ],
-      "category": "джинсы",
-      "categoryName": "джинсы",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Джинсы kkum ⭐️  Цена: 239.000 Размеры: S-3XL Материал: джинсовка",
-      "price": "239.000",
-      "oldPrice": "",
-      "sizes": "S-3XL Материал: джинсовка Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2288"
     }
   ]
 }
