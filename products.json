@@ -1,7 +1,24 @@
 {
-  "updatedAt": "2026-11-06T01:02:55.357Z",
+  "updatedAt": "2026-11-06T08:12:13.839Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3015,
+      "images": [
+        "images/products/3015-0.jpg",
+        "images/products/3015-1.jpg",
+        "images/products/3015-2.jpg",
+        "images/products/3015-3.jpg"
+      ],
+      "category": "Ветровка",
+      "categoryName": "Ветровка",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 269.000 🖤Размеры: S-2XL 🖤Материал: тедди Та",
+      "price": "269.000",
+      "oldPrice": "",
+      "sizes": "S-2XL 🖤Материал: тедди Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3015"
+    },
     {
       "id": 3011,
       "images": [
