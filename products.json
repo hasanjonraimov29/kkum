@@ -1,7 +1,24 @@
 {
-  "updatedAt": "2026-11-11T07:35:52.479Z",
+  "updatedAt": "2026-11-11T15:47:39.661Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3032,
+      "images": [
+        "images/products/3032-0.jpg",
+        "images/products/3032-1.jpg",
+        "images/products/3032-2.jpg",
+        "images/products/3032-3.jpg"
+      ],
+      "category": "Куртка",
+      "categoryName": "Куртка",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 369.000 🖤Размеры: М-2XL 🖤Материал: хлопок +",
+      "price": "369.000",
+      "oldPrice": "",
+      "sizes": "М-2XL 🖤Материал: хлопок + полиэстер Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3032"
+    },
     {
       "id": 3023,
       "images": [
