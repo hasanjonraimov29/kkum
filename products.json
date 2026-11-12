@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-11-12T11:37:39.829Z",
+  "updatedAt": "2026-11-12T19:26:29.558Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3049,
+      "images": [
+        "images/products/3049-0.jpg"
+      ],
+      "category": "Другое",
+      "categoryName": "Другое",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">Наши дорогие, открываем сезон курток 😐 В инсте уже куча классных м",
+      "price": "",
+      "oldPrice": "",
+      "sizes": "",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3049"
+    },
     {
       "id": 3047,
       "images": [
