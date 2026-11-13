@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-11-13T00:38:18.525Z",
+  "updatedAt": "2026-11-13T07:32:15.001Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3050,
+      "images": [
+        "images/products/3050-0.jpg",
+        "images/products/3050-1.jpg",
+        "images/products/3050-2.jpg"
+      ],
+      "category": "Куртка",
+      "categoryName": "Куртка",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 399.000 🖤Размеры: М-2XL 🖤Материал: замша Та",
+      "price": "399.000",
+      "oldPrice": "",
+      "sizes": "М-2XL 🖤Материал: замша Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3050"
+    },
     {
       "id": 3049,
       "images": [
@@ -3209,66 +3225,6 @@
       "sizes": "S-2XL Материал: хлопок Ташкент📍",
       "freeShipping": false,
       "link": "https://t.me/kkum_youu/2312"
-    },
-    {
-      "id": 2310,
-      "images": [
-        "images/products/2310-0.jpg",
-        "images/products/2310-1.jpg"
-      ],
-      "category": "шоппер",
-      "categoryName": "шоппер",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Шоппер kkum ⭐️  Цена: 79.000 Ташкент📍 Доставка: по всему Узбекис",
-      "price": "79.000",
-      "oldPrice": "",
-      "sizes": "",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2310"
-    },
-    {
-      "id": 2307,
-      "images": [
-        "images/products/2307-0.jpg",
-        "images/products/2307-1.jpg"
-      ],
-      "category": "штаны",
-      "categoryName": "штаны",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Штаны kkum ⭐️  Цена: 179.000 Размеры: S-2XL Материал: хлопок + по",
-      "price": "179.000",
-      "oldPrice": "",
-      "sizes": "S-2XL Материал: хлопок + полиэстер Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2307"
-    },
-    {
-      "id": 2305,
-      "images": [
-        "images/products/2305-0.jpg",
-        "images/products/2305-1.jpg"
-      ],
-      "category": "чехол",
-      "categoryName": "чехол",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Чехол kkum ⭐️  Цена: 44.000 Размеры: iPhone Ташкент📍 Доставка: п",
-      "price": "44.000",
-      "oldPrice": "",
-      "sizes": "iPhone Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2305"
-    },
-    {
-      "id": 2303,
-      "images": [
-        "images/products/2303-0.jpg",
-        "images/products/2303-1.jpg"
-      ],
-      "category": "рубашка",
-      "categoryName": "рубашка",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Рубашка kkum ⭐️  Цена: 179.000 Размеры: S-3XL Материал: хлопок +",
-      "price": "179.000",
-      "oldPrice": "",
-      "sizes": "S-3XL Материал: хлопок + полиэстер Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2303"
     }
   ]
 }
