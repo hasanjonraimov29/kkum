@@ -1,26 +1,7 @@
 {
-  "updatedAt": "2026-11-14T15:28:26.186Z",
+  "updatedAt": "2026-11-14T20:02:13.248Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
-    {
-      "id": 3060,
-      "images": [
-        "images/products/3060-0.jpg",
-        "images/products/3060-1.jpg",
-        "images/products/3060-2.jpg",
-        "images/products/3060-3.jpg",
-        "images/products/3060-4.jpg",
-        "images/products/3060-5.jpg"
-      ],
-      "category": "Другое",
-      "categoryName": "Другое",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">✨MIRAÉE SHOP✨ your little world. WEAR YOUR MOOD. DEFINE YOUR STYLE.",
-      "price": "",
-      "oldPrice": "",
-      "sizes": "",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/3060"
-    },
     {
       "id": 3056,
       "images": [
