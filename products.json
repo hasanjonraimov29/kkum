@@ -1,7 +1,24 @@
 {
-  "updatedAt": "2026-11-14T01:56:53.351Z",
+  "updatedAt": "2026-11-14T08:35:04.842Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3056,
+      "images": [
+        "images/products/3056-0.jpg",
+        "images/products/3056-1.jpg",
+        "images/products/3056-2.jpg",
+        "images/products/3056-3.jpg"
+      ],
+      "category": "Рюкзак",
+      "categoryName": "Рюкзак",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 159.000 🖤Материал: PU Ташкент ✔️ Доставка: п",
+      "price": "159.000",
+      "oldPrice": "",
+      "sizes": "",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3056"
+    },
     {
       "id": 3053,
       "images": [
@@ -3177,70 +3194,6 @@
       "sizes": "стандартные Материал: хлопок Ташкент📍",
       "freeShipping": false,
       "link": "https://t.me/kkum_youu/2324"
-    },
-    {
-      "id": 2322,
-      "images": [
-        "images/products/2322-0.jpg",
-        "images/products/2322-1.jpg"
-      ],
-      "category": "футболка",
-      "categoryName": "футболка",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Футболка kkum ⭐️  Цена: 139.000 Размеры: М-3XL Материал: хлопок Т",
-      "price": "139.000",
-      "oldPrice": "",
-      "sizes": "М-3XL Материал: хлопок Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2322"
-    },
-    {
-      "id": 2318,
-      "images": [
-        "images/products/2318-0.jpg",
-        "images/products/2318-1.jpg",
-        "images/products/2318-2.jpg",
-        "images/products/2318-3.jpg"
-      ],
-      "category": "Кроксы",
-      "categoryName": "Кроксы",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 179.000 🖤Размеры: 38-45 🖤Материал: ЕВА Ташк",
-      "price": "179.000",
-      "oldPrice": "",
-      "sizes": "38-45 🖤Материал: ЕВА Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2318"
-    },
-    {
-      "id": 2316,
-      "images": [
-        "images/products/2316-0.jpg",
-        "images/products/2316-1.jpg"
-      ],
-      "category": "бандана",
-      "categoryName": "бандана",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Бандана kkum ⭐️  Цена: 44.000 Размеры: 55*55 Материал: хлопок Таш",
-      "price": "44.000",
-      "oldPrice": "",
-      "sizes": "55*55 Материал: хлопок Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2316"
-    },
-    {
-      "id": 2312,
-      "images": [
-        "images/products/2312-0.jpg",
-        "images/products/2312-1.jpg",
-        "images/products/2312-2.jpg",
-        "images/products/2312-3.jpg"
-      ],
-      "category": "футболка",
-      "categoryName": "футболка",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Футболка kkum ⭐️  Цена: 129.000 Размеры: S-2XL Материал: хлопок Т",
-      "price": "129.000",
-      "oldPrice": "",
-      "sizes": "S-2XL Материал: хлопок Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2312"
     }
   ]
 }
