@@ -1,7 +1,39 @@
 {
-  "updatedAt": "2026-11-15T06:55:56.956Z",
+  "updatedAt": "2026-11-15T14:29:46.467Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3078,
+      "images": [
+        "images/products/3078-0.jpg",
+        "images/products/3078-1.jpg"
+      ],
+      "category": "Джинсы",
+      "categoryName": "Джинсы",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 299.000 с начесом 🖤Размеры: S-3XL 🖤Материал",
+      "price": "299.000",
+      "oldPrice": "",
+      "sizes": "S-3XL 🖤Материал: джинсовка Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3078"
+    },
+    {
+      "id": 3074,
+      "images": [
+        "images/products/3074-0.jpg",
+        "images/products/3074-1.jpg",
+        "images/products/3074-2.jpg",
+        "images/products/3074-3.jpg"
+      ],
+      "category": "Куртка",
+      "categoryName": "Куртка",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 369.000 🖤Размеры: М-3XL Ташкент ✔️ Доставка:",
+      "price": "369.000",
+      "oldPrice": "",
+      "sizes": "М-3XL Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3074"
+    },
     {
       "id": 3056,
       "images": [
