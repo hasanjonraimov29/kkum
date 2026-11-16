@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-11-16T04:21:39.667Z",
+  "updatedAt": "2026-11-16T13:01:10.658Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3086,
+      "images": [
+        "images/products/3086-0.jpg",
+        "images/products/3086-1.jpg"
+      ],
+      "category": "Куртка",
+      "categoryName": "Куртка",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 389.000 🖤Размеры: S-XL 🖤Материал: PU Ташкен",
+      "price": "389.000",
+      "oldPrice": "",
+      "sizes": "S-XL 🖤Материал: PU Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3086"
+    },
     {
       "id": 3078,
       "images": [
