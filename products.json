@@ -1,7 +1,25 @@
 {
-  "updatedAt": "2026-11-18T03:59:50.256Z",
+  "updatedAt": "2026-11-18T12:51:32.722Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3096,
+      "images": [
+        "images/products/3096-0.jpg",
+        "images/products/3096-1.jpg",
+        "images/products/3096-2.jpg",
+        "images/products/3096-3.jpg",
+        "images/products/3096-4.jpg"
+      ],
+      "category": "Куртка/бомбер",
+      "categoryName": "Куртка/бомбер",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 339.000 🖤Размеры: М-2XL 🖤Материал: плащовка",
+      "price": "339.000",
+      "oldPrice": "",
+      "sizes": "М-2XL 🖤Материал: плащовка Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3096"
+    },
     {
       "id": 3088,
       "images": [
@@ -3220,43 +3238,6 @@
       "sizes": "",
       "freeShipping": false,
       "link": "https://t.me/kkum_youu/2335"
-    },
-    {
-      "id": 2330,
-      "images": [
-        "images/products/2330-0.jpg",
-        "images/products/2330-1.jpg",
-        "images/products/2330-2.jpg",
-        "images/products/2330-3.jpg",
-        "images/products/2330-4.jpg"
-      ],
-      "category": "Скимс",
-      "categoryName": "Скимс",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 89.000 🖤Размеры: S-XL 🖤Материал: хлопок + п",
-      "price": "89.000",
-      "oldPrice": "",
-      "sizes": "S-XL 🖤Материал: хлопок + полиэстер Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2330"
-    },
-    {
-      "id": 2324,
-      "images": [
-        "images/products/2324-0.jpg",
-        "images/products/2324-1.jpg",
-        "images/products/2324-2.jpg",
-        "images/products/2324-3.jpg",
-        "images/products/2324-4.jpg",
-        "images/products/2324-5.jpg"
-      ],
-      "category": "кепка",
-      "categoryName": "кепка",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\">~ Кепка kkum ⭐️  Цена: 99.000 Размеры: стандартные Материал: хлопок",
-      "price": "99.000",
-      "oldPrice": "",
-      "sizes": "стандартные Материал: хлопок Ташкент📍",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2324"
     }
   ]
 }
