@@ -1,7 +1,26 @@
 {
-  "updatedAt": "2026-11-20T01:36:30.681Z",
+  "updatedAt": "2026-11-20T09:33:00.277Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3104,
+      "images": [
+        "images/products/3104-0.jpg",
+        "images/products/3104-1.jpg",
+        "images/products/3104-2.jpg",
+        "images/products/3104-3.jpg",
+        "images/products/3104-4.jpg",
+        "images/products/3104-5.jpg"
+      ],
+      "category": "Куртка",
+      "categoryName": "Куртка",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 359.000 🖤Размеры: S-3XL 🖤Материал: матовая",
+      "price": "359.000",
+      "oldPrice": "",
+      "sizes": "S-3XL 🖤Материал: матовая плащовка Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3104"
+    },
     {
       "id": 3101,
       "images": [
@@ -3175,85 +3194,6 @@
       "sizes": "28*22*10 🖤Материал: PU Ташкент ✔️",
       "freeShipping": false,
       "link": "https://t.me/kkum_youu/2351"
-    },
-    {
-      "id": 2349,
-      "images": [
-        "images/products/2349-0.jpg",
-        "images/products/2349-1.jpg"
-      ],
-      "category": "Скимс",
-      "categoryName": "Скимс",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 89.000 🖤Размеры: S-XL 🖤Материал: хлопок + п",
-      "price": "89.000",
-      "oldPrice": "",
-      "sizes": "S-XL 🖤Материал: хлопок + полиэстер Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2349"
-    },
-    {
-      "id": 2344,
-      "images": [
-        "images/products/2344-0.jpg",
-        "images/products/2344-1.jpg",
-        "images/products/2344-2.jpg"
-      ],
-      "category": "Сумка",
-      "categoryName": "Сумки",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 179.000 🖤Размеры: 24*19*13.5 🖤Материал: вел",
-      "price": "179.000",
-      "oldPrice": "",
-      "sizes": "24*19*13.5 🖤Материал: вельвет Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2344"
-    },
-    {
-      "id": 2342,
-      "images": [
-        "images/products/2342-0.jpg",
-        "images/products/2342-1.jpg"
-      ],
-      "category": "Браслет",
-      "categoryName": "Браслет",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 29.000 Ташкент ✔️ Доставка: по всему Узбекист",
-      "price": "29.000",
-      "oldPrice": "",
-      "sizes": "",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2342"
-    },
-    {
-      "id": 2339,
-      "images": [
-        "images/products/2339-0.jpg",
-        "images/products/2339-1.jpg",
-        "images/products/2339-2.jpg"
-      ],
-      "category": "Рубашка",
-      "categoryName": "Рубашки",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 139.000 🖤Размеры: M-2XL 🖤Материал: хлопок +",
-      "price": "139.000",
-      "oldPrice": "",
-      "sizes": "M-2XL 🖤Материал: хлопок + полиэстер Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2339"
-    },
-    {
-      "id": 2335,
-      "images": [
-        "images/products/2335-0.jpg",
-        "images/products/2335-1.jpg",
-        "images/products/2335-2.jpg",
-        "images/products/2335-3.jpg"
-      ],
-      "category": "Брелок",
-      "categoryName": "Брелок",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 55.000 Ташкент ✔️ Доставка: по всему Узбекист",
-      "price": "55.000",
-      "oldPrice": "",
-      "sizes": "",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2335"
     }
   ]
 }
