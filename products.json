@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-11-21T00:05:51.554Z",
+  "updatedAt": "2026-11-21T07:32:14.796Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3110,
+      "images": [
+        "images/products/3110-0.jpg",
+        "images/products/3110-1.jpg",
+        "images/products/3110-2.jpg"
+      ],
+      "category": "Джинсы",
+      "categoryName": "Джинсы",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 249/289.000 (без/с начесом) 🖤Размеры: S-2XL",
+      "price": "249",
+      "oldPrice": "",
+      "sizes": "S-2XL 🖤Материал: джинсовка Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3110"
+    },
     {
       "id": 3104,
       "images": [
