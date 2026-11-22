@@ -1,7 +1,27 @@
 {
-  "updatedAt": "2026-11-22T01:28:46.110Z",
+  "updatedAt": "2026-11-22T08:36:05.025Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3134,
+      "images": [
+        "images/products/3134-0.jpg",
+        "images/products/3134-1.jpg",
+        "images/products/3134-2.jpg",
+        "images/products/3134-3.jpg",
+        "images/products/3134-4.jpg",
+        "images/products/3134-5.jpg",
+        "images/products/3134-6.jpg"
+      ],
+      "category": "Лонгслив",
+      "categoryName": "Лонгслив",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 129.000 🖤Размеры: S-2XL 🖤Материал: хлопок Т",
+      "price": "129.000",
+      "oldPrice": "",
+      "sizes": "S-2XL 🖤Материал: хлопок Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3134"
+    },
     {
       "id": 3110,
       "images": [
