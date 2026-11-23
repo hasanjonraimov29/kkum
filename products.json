@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-11-23T02:57:04.718Z",
+  "updatedAt": "2026-11-23T11:48:12.866Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3141,
+      "images": [
+        "images/products/3141-0.jpg",
+        "images/products/3141-1.jpg",
+        "images/products/3141-2.jpg"
+      ],
+      "category": "Кожанка",
+      "categoryName": "Кожанка",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 309.000 🖤Размеры: S-2XL 🖤Материал: PU Ташке",
+      "price": "309.000",
+      "oldPrice": "",
+      "sizes": "S-2XL 🖤Материал: PU Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3141"
+    },
     {
       "id": 3134,
       "images": [
@@ -3166,54 +3182,6 @@
       "sizes": "M-3XL 🖤Материал: хлопок + полиэстер Ташкент ✔️",
       "freeShipping": false,
       "link": "https://t.me/kkum_youu/2360"
-    },
-    {
-      "id": 2358,
-      "images": [
-        "images/products/2358-0.jpg",
-        "images/products/2358-1.jpg"
-      ],
-      "category": "Брелок",
-      "categoryName": "Брелок",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 39.000 Ташкент ✔️ Доставка: по всему Узбекист",
-      "price": "39.000",
-      "oldPrice": "",
-      "sizes": "",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2358"
-    },
-    {
-      "id": 2356,
-      "images": [
-        "images/products/2356-0.jpg",
-        "images/products/2356-1.jpg"
-      ],
-      "category": "Джинсы",
-      "categoryName": "Джинсы",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 249.000 🖤Размеры: S-4XL 🖤Материал: джинсовк",
-      "price": "249.000",
-      "oldPrice": "",
-      "sizes": "S-4XL 🖤Материал: джинсовка Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2356"
-    },
-    {
-      "id": 2351,
-      "images": [
-        "images/products/2351-0.jpg",
-        "images/products/2351-1.jpg",
-        "images/products/2351-2.jpg",
-        "images/products/2351-3.jpg",
-        "images/products/2351-4.jpg"
-      ],
-      "category": "Сумка",
-      "categoryName": "Сумки",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 159.000 🖤Размеры: 28*22*10 🖤Материал: PU Та",
-      "price": "159.000",
-      "oldPrice": "",
-      "sizes": "28*22*10 🖤Материал: PU Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2351"
     }
   ]
 }
