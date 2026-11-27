@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-11-27T04:43:51.261Z",
+  "updatedAt": "2026-11-27T14:37:02.459Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3145,
+      "images": [
+        "images/products/3145-0.jpg",
+        "images/products/3145-1.jpg",
+        "images/products/3145-2.jpg"
+      ],
+      "category": "Кожанка",
+      "categoryName": "Кожанка",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 289.000 🖤Размеры: S-XL 🖤Материал: PU Ташкен",
+      "price": "289.000",
+      "oldPrice": "",
+      "sizes": "S-XL 🖤Материал: PU Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3145"
+    },
     {
       "id": 3141,
       "images": [
