@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-11-28T04:49:58.385Z",
+  "updatedAt": "2026-11-28T13:49:35.142Z",
   "channel": "https://t.me/kkum_youu",
   "products": [
+    {
+      "id": 3148,
+      "images": [
+        "images/products/3148-0.jpg",
+        "images/products/3148-1.jpg",
+        "images/products/3148-2.jpg"
+      ],
+      "category": "Толстовка",
+      "categoryName": "Толстовка",
+      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 247/279.000 (без/с начеса) 🖤Размеры: S-2XL \ud83d",
+      "price": "247",
+      "oldPrice": "",
+      "sizes": "S-2XL 🖤Материал: хлопок Ташкент ✔️",
+      "freeShipping": false,
+      "link": "https://t.me/kkum_youu/3148"
+    },
     {
       "id": 3145,
       "images": [
@@ -3107,97 +3123,6 @@
       "sizes": "S-XL 🖤Материал: хлопок + полиэстер Ташкент ✔️",
       "freeShipping": false,
       "link": "https://t.me/kkum_youu/2375"
-    },
-    {
-      "id": 2373,
-      "images": [
-        "images/products/2373-0.jpg",
-        "images/products/2373-1.jpg"
-      ],
-      "category": "Джортсы",
-      "categoryName": "Джортсы",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 179.000 🖤Размеры: S-3XL 🖤Материал: джинсовк",
-      "price": "179.000",
-      "oldPrice": "",
-      "sizes": "S-3XL 🖤Материал: джинсовка Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2373"
-    },
-    {
-      "id": 2371,
-      "images": [
-        "images/products/2371-0.jpg",
-        "images/products/2371-1.jpg"
-      ],
-      "category": "Джерси",
-      "categoryName": "Джерси",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 179.000 🖤Размеры: М-2XL 🖤Материал: полиэсте",
-      "price": "179.000",
-      "oldPrice": "",
-      "sizes": "М-2XL 🖤Материал: полиэстер Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2371"
-    },
-    {
-      "id": 2369,
-      "images": [
-        "images/products/2369-0.jpg",
-        "images/products/2369-1.jpg"
-      ],
-      "category": "Сумка",
-      "categoryName": "Сумки",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 179.000 🖤Размеры: 25*10*23 🖤Материал: PU Та",
-      "price": "179.000",
-      "oldPrice": "",
-      "sizes": "25*10*23 🖤Материал: PU Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2369"
-    },
-    {
-      "id": 2367,
-      "images": [
-        "images/products/2367-0.jpg",
-        "images/products/2367-1.jpg"
-      ],
-      "category": "Рубашка",
-      "categoryName": "Рубашки",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 169.000 🖤Размеры: S-3ХL 🖤Материал: хлопок Т",
-      "price": "169.000",
-      "oldPrice": "",
-      "sizes": "S-3ХL 🖤Материал: хлопок Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2367"
-    },
-    {
-      "id": 2363,
-      "images": [
-        "images/products/2363-0.jpg",
-        "images/products/2363-1.jpg"
-      ],
-      "category": "Джортсы",
-      "categoryName": "Джортсы",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 189.000 🖤Размеры: S-4XL 🖤Материал: джинсовк",
-      "price": "189.000",
-      "oldPrice": "",
-      "sizes": "S-4XL 🖤Материал: джинсовка Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2363"
-    },
-    {
-      "id": 2360,
-      "images": [
-        "images/products/2360-0.jpg",
-        "images/products/2360-1.jpg",
-        "images/products/2360-2.jpg"
-      ],
-      "category": "Футболка",
-      "categoryName": "Футболки",
-      "title": "tgme_widget_message_text js-message_text\" dir=\"auto\"> 🪽🔤🔤🔤🔤🦋 🖤Цена: 139.000 🖤Размеры: M-3XL 🖤Материал: хлопок +",
-      "price": "139.000",
-      "oldPrice": "",
-      "sizes": "M-3XL 🖤Материал: хлопок + полиэстер Ташкент ✔️",
-      "freeShipping": false,
-      "link": "https://t.me/kkum_youu/2360"
     }
   ]
 }
